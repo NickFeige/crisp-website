@@ -1,0 +1,67 @@
+.main-background {
+  position: relative;
+  background-color:#fff9c4;
+  min-height: 100vh;
+  margin: 0;
+}
+.title {
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  color: #ee810c;
+  white-space: nowrap;
+
+  font-size: clamp(2rem, 6vw, 5rem); /* 👈 responsive font size */
+  font-weight: bold;
+}
+.title2 {
+  color: #ee810c;
+  white-space: nowrap;
+  text-align: center;
+  font-size: clamp(1rem, 3vw, 2.5rem);
+  font-weight: bold;
+  margin-top: 200px; /* 👈 pushes text down */
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full screen height */
+}
+
+.button {
+  background-color: #f5a905;
+  color: white;
+  padding: 20px 185px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.1s ease, color 0.1s ease, border 0.1s ease;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #fec762;
+}
+.about-content {
+  text-align: center;
+  padding-top: 5px; /* push all content down */
+}
+.carousel-click-zone {
+  cursor: pointer;
+}
+
+.veg-carousel img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.legend {
+  background-color: rgba(249, 151, 3, 0.5);
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
